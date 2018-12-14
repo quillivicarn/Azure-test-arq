@@ -13,7 +13,7 @@ public class CalculServiceImplTest {
 
 	@Test
 	public void testProcessAdd() {
-		int x=2,y=3,result=0, expectedResult=6;
+		int x=2,y=3,result=0, expectedResult=5;
 		result=calculService.processAdd(x, y);
 		assertEquals(expectedResult,result);
 	}
